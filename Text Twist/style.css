@@ -1,0 +1,43 @@
+li {
+  list-style-type: none;
+}
+
+#name {
+  text-decoration: underline;
+}
+#typing {
+  text-align: center;
+}
+#tryAgain {
+  position: relative;
+  text-align: center;
+  visibility: hidden;
+}
+#completed {
+  position: relative;
+  text-align: center;
+}
+#scramble {
+  font-size: 40px;
+}
+#completeTitle {
+  font-size: 30px;
+  padding-top: 20px;
+}
+#inputBox {
+  margin: 20px;
+}
+#wordList {
+  columns: 100px 2;
+}
+#timer {
+  position: relative;
+  text-align: center;
+  line-height: 10px;
+}
+#score {
+  position: relative;
+  text-align: center;
+  margin: 0px 0px 40px 0px;
+  line-height: 10px;
+}

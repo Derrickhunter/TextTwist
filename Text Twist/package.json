@@ -1,0 +1,14 @@
+{
+    "name": "cpeg470-texttwist",
+    "version": "1.0.0",
+    "description": "Text twist, unscramble the words",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Derrick Hunter",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }

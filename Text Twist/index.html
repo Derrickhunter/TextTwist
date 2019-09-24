@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html> -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Text Twist</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" id="intro">
+        <h1 id="name">Play Text Twist!</h1><br>
+        <input id="guess" type="text" placeholder="Enter text here" autofocus required></input>
+
+          <p> <button type="button" class="btn btn-primary btn-wide" id="twistBtn">
+                Twist!
+              </button>
+              <button type="button" class="btn btn-secondary btn-wide" id="lastBtn">
+                Previous
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn-wide"
+                id="clearBtn"
+              >
+                Clear
+              </button>
+              <button
+                type="button"
+                class="btn btn-success btn-wide"
+                id="enterBtn"
+              >
+                Enter
+              </button>     
+          </p>
+      </div>
+    </div>
+
+      <div class="modal fade" id="loseModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body">
+              <p>Try Again!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div id="timer" class="well">Time Left: 2:00</div>
+        <div id="score" class="well">Score: 0</div>
+      </div>
+
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
